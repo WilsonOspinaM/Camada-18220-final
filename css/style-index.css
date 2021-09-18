@@ -24,9 +24,9 @@ header nav .item {
 
 h1 {
     background-color:#fff;
-    color: #581845;
+    color: grey;
     font-family: "Source Code Pro", monospace;
-    font-size: 40px;
+    font-size: 15px;
     font-weight: 10;
     letter-spacing: 1px;
     word-spacing: 10px;
