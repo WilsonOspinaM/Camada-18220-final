@@ -35,9 +35,7 @@ h1 {
     padding: 10px;
   }
 
-.h-carrusel{
-    height: 420px;
-}
+
 
 .gradient {
         background: linear-gradient(#000046, #1cb5e0);   
@@ -154,6 +152,10 @@ section div div p{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.h-carrusel{
+    height:100%;
 }
 
 /* Fin Section Menú */
