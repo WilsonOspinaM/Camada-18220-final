@@ -35,7 +35,14 @@ h1 {
     padding: 10px;
   }
 
+.h-carrusel{
+    height: 420px;
+}
 
+.gradient {
+        background: linear-gradient(#000046, #1cb5e0);   
+
+}
 
 header nav .menu {
         font-family: 'Source Code Pro', monospace;
@@ -100,7 +107,7 @@ section div div p{
 
 .section {
     width: 100%;
-    height: 320px;
+    height: 400px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -250,7 +257,7 @@ section div div div .section-calidad {
 .item-fixed {
     position: fixed;
     /* Se puede ubicar a los 4 lados */
-    bottom: 130px;
+    bottom: 20px;
     right: 0;
 }
 
