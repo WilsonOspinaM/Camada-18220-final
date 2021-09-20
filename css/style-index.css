@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -12,18 +12,18 @@
     padding: 10px 0 10px 0;
     display: flex;
     justify-content: center;
-    align-items: center;   
+    align-items: center;
 }
 
 header nav .item {
     padding: 10px;
     display: flex;
     justify-content: space-between;
-    float:inline-start;
+    float: inline-start;
 }
 
 h1 {
-    background-color:#fff;
+    background-color: #fff;
     color: grey;
     font-family: "Source Code Pro", monospace;
     font-size: 15px;
@@ -33,30 +33,30 @@ h1 {
     margin: 0;
     text-align: center;
     padding: 10px;
-  }
+}
 
 
 
 .gradient {
-        background: linear-gradient(#000046, #1cb5e0);   
+    background: linear-gradient(#000046, #1cb5e0);
 
 }
 
 .menu {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 15px;
-        letter-spacing: 2px;
-        word-spacing: 20px;
-        color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 20px;
+    color: white;
 }
 
-.nav-link:hover{
+.nav-link:hover {
     color: lightsalmon;
 }
 
 .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
-  }
+}
 
 header nav div img {
     width: 126px;
@@ -65,7 +65,7 @@ header nav div img {
 header nav ul li a {
     text-decoration: none;
     color: white;
-    
+
 }
 
 header nav .espacio {
@@ -78,6 +78,7 @@ header nav .espacio {
     z-index: 5;
     background-color: #581845;
 }
+
 /* Fin Header */
 
 
@@ -90,17 +91,17 @@ header nav .espacio {
 
 section div div p strong {
     color: #581845;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 40px;
     font-style: oblique;
 }
 
-section div div p{
-   padding: 0 30px 0 30px;
+section div div p {
+    padding: 0 30px 0 30px;
 }
 
 .section-container-menu {
-    color: #900C3F ;
+    color: #900C3F;
     background-color: gainsboro;
     display: flex;
     justify-content: space-around;
@@ -132,12 +133,12 @@ section div div p{
 
 .container-img:hover {
     transform: scale(1.1);
-    
+
 }
 
 section div div p strong {
     color: #581845;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 40px;
     font-style: oblique;
 }
@@ -146,12 +147,12 @@ section div div p strong {
     border: white 1px solid;
 }
 
-section div div p{
-   padding: 0 30px 0 30px;
+section div div p {
+    padding: 0 30px 0 30px;
 }
 
 .section-container-nosotros {
-    color: #900C3F ;
+    color: #900C3F;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -167,8 +168,8 @@ section div div p{
     align-items: center;
 }
 
-.h-carrusel{
-    height:100%;
+.h-carrusel {
+    height: 100%;
 }
 
 /* Fin Section Menú */
@@ -182,17 +183,17 @@ section div div p{
 
 section div div p strong {
     color: #581845;
-    font-weight:bold;
+    font-weight: bold;
     font-size: 40px;
     font-style: oblique;
 }
 
-section div div p{
-   padding: 0 30px 0 30px;
+section div div p {
+    padding: 0 30px 0 30px;
 }
 
-.section-container-especiales{
-    color: #900C3F ;
+.section-container-especiales {
+    color: #900C3F;
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -235,18 +236,28 @@ section div div p{
 
 .btn-primary {
     margin: 20px;
-    background-color: orangered !important ;
-    color: tomato;
+    background-color: #581845 !important;
     border: 0px;
+    font-family: 'Source Code Pro', monospace;
 }
 
-.btn:hover {
-    background-color: tomato;
+.btn-primary:hover {
+    background-color: tomato !important;
 }
 
-.input-group{
+.btn-secondary {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.modal-title {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.input-group {
     padding: 20px;
+    font-family: 'Source Code Pro', monospace;
 }
+
 .section-container-calidad {
     background-color: rgba(220, 220, 220, 0.40);
     padding: 20px;
@@ -265,7 +276,7 @@ section div div div .section-calidad {
     align-items: center;
 }
 
-.usuarios:hover{
+.usuarios:hover {
     border-radius: 50%;
     box-shadow: 0px 0px 5px 5px gainsboro;
     height: 200px;
@@ -308,7 +319,7 @@ section .opcion-pedido {
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    }
+}
 
 .img-pedido {
     padding: 5px;
@@ -320,7 +331,7 @@ section .opcion-pedido {
 .producto {
     width: 150px;
     height: 114px;
-    
+
 }
 
 section div div #txt-menu {
@@ -338,11 +349,18 @@ section div div #strong-pedido {
 /* Formulario Registro */
 
 .form-style {
-    background-color:gainsboro;
+    background-color: gainsboro;
     margin: auto;
     width: 80%;
     padding: 30px;
-    
+
+}
+
+section div .text-registro {
+    background-color: gainsboro;
+    font-size: 14px;
+    font-style: normal;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .btn-primary {
@@ -352,8 +370,15 @@ section div div #strong-pedido {
 }
 
 .group1 {
-    display: flex;
+    text-align: justify;
+    padding: 8px 8px;
+    margin: 0 300px;
+    font-family: 'Source Code Pro', monospace;
+}
 
+.checkbox {
+    padding: 8px;
+    font-family: 'Source Code Pro', monospace;
 }
 
 /* Formulario Registro */
@@ -370,74 +395,86 @@ section div div #strong-pedido {
     padding: 20px;
     width: 100%;
     margin: auto;
-    
-    }
-    
-    .div1 {
-        width: 100%;
-        grid-area: 6 / 5 / 10 / 6;
-        background-color:black;
-    }
-    .div2 { grid-area: 1 / 6 / 6 / 7;
-        width: 100%;
-    }
-    .div3 {grid-area: 6 / 1 / 10 / 3;
-        width: 100%;    
-    }
 
-   .img3 {
-       width: 100%;
-   }
+}
 
-    .div4 { grid-area: 1 / 3 / 6 / 5;
-        width: 100%;
-    }
-    .div5 { grid-area: 1 / 5 / 6 / 6;
-        width: 100%;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 30px;
-        font-weight: 700;
-        background-color:palegoldenrod;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .div6 { grid-area: 6 / 3 / 10 / 5;
-        width: 100%;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 30px;
-        font-weight: 700;
-        background-color:papayawhip;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .div7 {
-        width: 100%;
-        grid-area: 1 / 1 / 6 / 3;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 30px;
-        font-weight: 700;
-        background-color:beige;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-    }
-    .div8 { grid-area: 6 / 6 / 10 / 7;
-        width: 100%;
-        font-family: 'Source Code Pro', monospace;
-        font-size: 30px;
-        font-weight: 700;
-        background-color:lavender;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+.div1 {
+    width: 100%;
+    grid-area: 6 / 5 / 10 / 6;
+    background-color: black;
+}
+
+.div2 {
+    grid-area: 1 / 6 / 6 / 7;
+    width: 100%;
+}
+
+.div3 {
+    grid-area: 6 / 1 / 10 / 3;
+    width: 100%;
+}
+
+.img3 {
+    width: 100%;
+}
+
+.div4 {
+    grid-area: 1 / 3 / 6 / 5;
+    width: 100%;
+}
+
+.div5 {
+    grid-area: 1 / 5 / 6 / 6;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: palegoldenrod;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div6 {
+    grid-area: 6 / 3 / 10 / 5;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: papayawhip;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div7 {
+    width: 100%;
+    grid-area: 1 / 1 / 6 / 3;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: beige;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.div8 {
+    grid-area: 6 / 6 / 10 / 7;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 30px;
+    font-weight: 700;
+    background-color: lavender;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Fin Regitro Grilla */
 
@@ -445,7 +482,7 @@ section div div #strong-pedido {
 /* Términos y condiciones */
 
 .tyc {
-    background-color:gainsboro;
+    background-color: gainsboro;
     margin: auto;
     padding: 30px 20rem 10px 20rem;
     text-align: center;
@@ -453,11 +490,11 @@ section div div #strong-pedido {
 }
 
 .form-style {
-    background-color:gainsboro;
-    margin: auto;
+    background-color: gainsboro;
+    text-align: center;
     width: 100%;
-    padding: 40px 20rem;
-    
+    padding: 20px 20px;
+
 }
 
 
@@ -472,11 +509,158 @@ footer nav .container-redes {
 }
 
 footer nav div div {
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 2px;
+    padding: 0 10px 0 10px;
+}
+
+/* Fin Footer*/
+
+/* Media Query */
+
+@media only screen and (min-width:300px) and (max-width:960px) {
+
+    .container {
+        background-color: #581845;
+        padding: 10px 0 10px 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .tyc {
+        background-color: gainsboro;
+        margin: auto;
+        padding: 30px;
+        text-align: center;
+        align-content: center;
+    }
+
+    .siguenos {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    footer nav div div {
         font-family: 'Source Code Pro', monospace;
         color: white;
         font-size: 15px;
         letter-spacing: 2px;
         padding: 0 10px 0 10px;
-}
+        display: contents;
+        align-self: center;
+    }
 
-/* Fin Footer*/
+    footer nav .container-redes {
+        background-color: #581845;
+        padding: 40px 10px 40px 10px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .parent {
+        display: block;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 8px;
+        padding: 20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .form-style {
+        background-color: gainsboro;
+        margin: auto;
+        width: 100%;
+        padding: 30px;
+        display: inline-grid;
+    }
+
+    .group1 {
+        text-align: justify;
+        padding: 8px 8px;
+        margin: 0 20px;
+        font-family: 'Source Code Pro', monospace;
+    }
+
+    .section {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .section-container-menu {
+        color: #900C3F;
+        background-color: gainsboro;
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 40px;
+    }
+
+    section div div p strong {
+        color: #581845;
+        font-weight: bold;
+        font-size: 30px;
+        font-style: oblique;
+    }
+
+    section div div p {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .section-container-nosotros {
+        color: #900C3F;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 40px;
+        width: 100%;
+    
+    }
+
+    .section-container-especiales {
+        color: #900C3F;
+        background-color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 80px 40px;
+
+    }
+
+    .container-usuarios {
+        margin: 10px 0;
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .section-border-calidad {
+        height: 800px;
+        margin: 20px;
+        text-align: center;
+        background-color: white;
+    }
+
+    img {
+        max-width:100%;
+    }
+
+    iframe {
+        border: 0;
+        max-width: 100%;
+    }
+}
