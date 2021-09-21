@@ -7,6 +7,19 @@
 
 /* Header */
 
+.navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.container-fluid {
+    display: flex;
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 20%;
+}
+
 .container {
     background-color: #581845;
     padding: 10px 0 10px 0;
@@ -52,10 +65,6 @@ h1 {
 
 .nav-link:hover {
     color: lightsalmon;
-}
-
-.navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
 header nav div img {
@@ -526,8 +535,20 @@ footer nav div div {
         background-color: #581845;
         padding: 10px 0 10px 0;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
         align-items: center;
+    }
+
+    .container-fluid {
+        margin: 0;
+    }
+
+    .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    }
+
+    .navbar-collapse {
+        text-align: center;
     }
 
     .tyc {
@@ -626,7 +647,7 @@ footer nav div div {
         justify-content: space-around;
         padding: 10px 40px;
         width: 100%;
-    
+
     }
 
     .section-container-especiales {
@@ -639,26 +660,32 @@ footer nav div div {
     }
 
     .container-usuarios {
-        margin: 10px 0;
-        width: 100%;
-        height: 100px;
         display: flex;
-        justify-content: space-between;
+        justify-content: flex-start;
         align-items: center;
         flex-direction: column;
     }
 
     .section-border-calidad {
-        height: 800px;
+        height: 1100px;
         margin: 20px;
         text-align: center;
         background-color: white;
     }
 
     img {
-        max-width:100%;
+        max-width: 100%;
+    }
+    .usuarios {
+        /* border-radius: 50%; */
+        /* width: 200px; */
+        /* margin: auto; */
+        padding: 30px 0;
+        /* transition: 1s; */
+        height: auto;
     }
 
+   
     iframe {
         border: 0;
         max-width: 100%;

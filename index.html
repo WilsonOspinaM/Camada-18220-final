@@ -18,7 +18,8 @@
     <meta property="og:tittle" content="Restaurante Cocó - Lo mejor de Colombia en un solo sitio">
     <meta property="og:description" content="Restaurante Cocó - Lo mejor de Colombia en un solo sitio">
     <meta property="og:site_name" content="Restaurante Cocó - Lo mejor de Colombia en un solo sitio">
-    <meta property="og:image" content="https://wilsonospinam.github.io/Camada-18220-final/images/coco_restaurante_prop.png">
+    <meta property="og:image"
+        content="https://wilsonospinam.github.io/Camada-18220-final/images/coco_restaurante_prop.png">
     <meta property="og:locale" content="es_ES">
 
     <!-- Favicon -->
@@ -31,7 +32,7 @@
 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style-index.css">
+    <link rel="stylesheet" href="css/style.css">
 
     <!-- Debe rondar entre 35 y 65 caracteres -->
     <title>Cocó Restaurante | Comidas Colombianas típicas de alta calidad</title>
@@ -40,34 +41,31 @@
 
 <body>
 
-
-
     <!-- Header -->
     <header class="sticky">
-        <nav class="container item ">
-            <div class="item">
-                <img src="images/logo_header.png" alt="Cocó Restaurante">
-            </div>
-
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
-                        <div class="navbar-nav">
-                            <a class="nav-link active menu" aria-current="page" href="index.html">Inicio</a>
-                            <a class="nav-link active menu" href="#Nosotros">Nosotros</a>
-                            <a class="nav-link active menu" href="#Menu">Menú</a>
-                            <a class="nav-link active menu" href="#Especiales">Especiales</a>
-                            <a class="nav-link active menu" href="#Comentarios">Comentarios</a>
-                            <a class="nav-link menu" href="registro.html">Registro</a>
-                        </div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/logo_header.png" alt="" width="126" height="43"
+                        class="d-inline-block align-text-top">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" data-bs-toggle="collapse"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse menu" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active menu" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link menu click" href="#Nosotros">Nosotros</a>
+                        <a class="nav-link menu" href="#Menu">Menú</a>
+                        <a class="nav-link menu" href="#Especiales">Especiales</a>
+                        <a class="nav-link menu" href="#Comentarios">Comentarios</a>
+                        <a class="nav-link menu" href="registro.html">Registro</a>
                     </div>
                 </div>
-            </nav>
+            </div>
+        </nav>
         </nav>
     </header>
 
@@ -225,7 +223,8 @@
                             <div class="input-group">
                                 <div class="input-group-prepend">
                                 </div>
-                                <textarea class="form-control" aria-label="With textarea" placeholder="Escribe tu mensaje"></textarea>
+                                <textarea class="form-control" aria-label="With textarea"
+                                    placeholder="Escribe tu mensaje"></textarea>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Salir sin

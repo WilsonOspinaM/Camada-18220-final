@@ -1,11 +1,26 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,700&display=swap");
 * {
   margin: 0;
   padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;1,700&display=swap');
+
+/* Header */
+
+.navbar {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.container-fluid {
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 20%;
+}
+
 .container {
-  height: auto;
   background-color: #581845;
   padding: 10px 0 10px 0;
   display: flex;
@@ -14,39 +29,56 @@
 }
 
 header nav .item {
-  padding: 10px 0;
+  padding: 10px;
   display: flex;
   justify-content: space-between;
-  align-content: center;
   float: inline-start;
 }
-header nav .menu {
+
+h1 {
+  background-color: #fff;
+  color: grey;
   font-family: "Source Code Pro", monospace;
   font-size: 15px;
+  font-weight: 10;
   letter-spacing: 1px;
   word-spacing: 10px;
   margin: 0;
-}
-h1 {
-  background-color:gainsboro;
-  color: #581845;
-  font-family: "Source Code Pro", monospace;
-  font-size: 10px;
-  font-weight: 10;
-  margin: 0;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 }
+
+
+
+.gradient {
+  background: linear-gradient(#000046, #1cb5e0);
+
+}
+
+.menu {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 15px;
+  letter-spacing: 2px;
+  word-spacing: 20px;
+  color: white;
+}
+
+.nav-link:hover {
+  color: lightsalmon;
+}
+
 header nav div img {
   width: 126px;
 }
+
 header nav ul li a {
   text-decoration: none;
   color: white;
+
 }
+
 header nav .espacio {
-  padding: 0px 60px 0px 60px;
-  margin: 0;
+  padding: 0px 120px 0px 120px;
 }
 
 .sticky {
@@ -56,70 +88,288 @@ header nav .espacio {
   background-color: #581845;
 }
 
-.form-style {
+/* Fin Header */
+
+
+/* Section Banner Principal */
+
+.type {
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+}
+
+section div div p strong {
+  color: #581845;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+section div div p {
+  padding: 0 30px 0 30px;
+}
+
+.section-container-menu {
+  color: #900C3F;
   background-color: gainsboro;
-  height: 300px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding: 80px 10rem;
 }
 
-.input {
-  width: 500px;
-  margin: 0;
+.img-principal-banner {
+  padding: 0 20px 0;
+  transition: all 2s;
 }
 
-.label {
-  padding: 10px 10px 0 0;
+.section {
+  width: 100%;
+  height: 400px;
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  margin: 0;
+}
+
+/* Fin Section Banner Principal */
+
+
+/* Section Menú */
+
+#menu-chef {
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+}
+
+.container-img:hover {
+  transform: scale(1.1);
+
+}
+
+section div div p strong {
+  color: #581845;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+.border-menu {
+  border: white 1px solid;
+}
+
+section div div p {
+  padding: 0 30px 0 30px;
+}
+
+.section-container-nosotros {
+  color: #900C3F;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 100px 80px 100px;
+}
+
+
+.section {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.h-carrusel {
+  height: 100%;
+}
+
+/* Fin Section Menú */
+
+/* Section Especiales */
+
+#especiales {
+  font-family: 'Source Code Pro', monospace;
+  width: 100%;
+}
+
+section div div p strong {
+  color: #581845;
+  font-weight: bold;
+  font-size: 40px;
+  font-style: oblique;
+}
+
+section div div p {
+  padding: 0 30px 0 30px;
+}
+
+.section-container-especiales {
+  color: #900C3F;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 80px 100px 80px 100px;
+
+}
+
+.img-principal-banner {
+  padding: 0 20px 0;
+}
+
+.section {
+  width: 100%;
+  height: 320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Fin Section Especiales */
+
+/* Float comentarios */
+
+.comentarios {
+  float: right;
+  padding: 40px 40px 0 0;
+  z-index: 6;
+}
+
+/* Fin Float comentarios */
+
+/* Calidad - Comentarios */
+
+.section-border-calidad {
+  height: 400px;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: green;
-  border-color: green;
+  margin: 20px;
+  background-color: #581845 !important;
+  border: 0px;
+  font-family: 'Source Code Pro', monospace;
 }
 
-.group1 {
+.btn-primary:hover {
+  background-color: tomato !important;
+}
+
+.btn-secondary {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.modal-title {
+  font-family: 'Source Code Pro', monospace;
+}
+
+.input-group {
+  padding: 20px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+.section-container-calidad {
+  background-color: rgba(220, 220, 220, 0.40);
+  padding: 20px;
+}
+
+section div div div .section-calidad {
+  align-content: center;
+}
+
+.container-usuarios {
+  margin: 10px 0;
+  width: 100%;
+  height: 100px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.mb-3 {
-  padding: 0 20px;
+.usuarios:hover {
+  border-radius: 50%;
+  box-shadow: 0px 0px 5px 5px gainsboro;
+  height: 200px;
 }
 
-.img-contact {
-  width: auto;
-  border-radius: 0 0 20px 20px;
-  display: flex;
+.usuarios {
+  border-radius: 50%;
+  width: 200px;
   margin: auto;
-  background-color: gainsboro;
+  padding: 0;
+  transition: 1s;
+  height: 200px;
 }
 
-.img {
-  background-color: gainsboro;
+.parrafo-usuarios {
+  width: 200px;
+  margin: auto;
+  padding: 0;
 }
 
-.btn-1 {
-  background-color: gainsboro;
+/* Fin Calidad - Comentarios */
+
+.item-fixed {
+  position: fixed;
+  /* Se puede ubicar a los 4 lados */
+  bottom: 20px;
+  right: 0;
+}
+
+
+/* Menú Pedidos */
+
+.container-pedidos {
+  width: 1000px;
+  margin: auto;
+}
+
+section .opcion-pedido {
   display: flex;
-  justify-content: flex-end;
-  padding: 10px 22.5% 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
 }
 
-.btn-2 {
-  background-color: gainsboro;
+.img-pedido {
+  padding: 5px;
   display: flex;
-  justify-content: flex-end;
-  padding: 0 22.5%;
+  justify-content: space-around;
+  align-items: center;
 }
+
+.producto {
+  width: 150px;
+  height: 114px;
+
+}
+
+section div div #txt-menu {
+  width: 150px;
+  padding: 10px;
+}
+
+section div div #strong-pedido {
+  font-size: 20px;
+  font-style: normal;
+}
+
+/* Fin Menú Pedidos */
+
+/* Formulario Registro */
 
 .form-style {
   background-color: gainsboro;
   margin: auto;
   width: 80%;
   padding: 30px;
+
+}
+
+section div .text-registro {
+  background-color: gainsboro;
+  font-size: 14px;
+  font-style: normal;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .btn-primary {
@@ -129,8 +379,21 @@ header nav .espacio {
 }
 
 .group1 {
-  display: flex;
+  text-align: justify;
+  padding: 8px 8px;
+  margin: 0 300px;
+  font-family: 'Source Code Pro', monospace;
 }
+
+.checkbox {
+  padding: 8px;
+  font-family: 'Source Code Pro', monospace;
+}
+
+/* Formulario Registro */
+
+
+/* Regitro Grilla */
 
 .parent {
   display: grid;
@@ -141,21 +404,22 @@ header nav .espacio {
   padding: 20px;
   width: 100%;
   margin: auto;
+
 }
 
 .div1 {
   width: 100%;
-  grid-area: 6/5/10/6;
+  grid-area: 6 / 5 / 10 / 6;
   background-color: black;
 }
 
 .div2 {
-  grid-area: 1/6/6/7;
+  grid-area: 1 / 6 / 6 / 7;
   width: 100%;
 }
 
 .div3 {
-  grid-area: 6/1/10/3;
+  grid-area: 6 / 1 / 10 / 3;
   width: 100%;
 }
 
@@ -164,14 +428,14 @@ header nav .espacio {
 }
 
 .div4 {
-  grid-area: 1/3/6/5;
+  grid-area: 1 / 3 / 6 / 5;
   width: 100%;
 }
 
 .div5 {
-  grid-area: 1/5/6/6;
+  grid-area: 1 / 5 / 6 / 6;
   width: 100%;
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 30px;
   font-weight: 700;
   background-color: palegoldenrod;
@@ -182,9 +446,9 @@ header nav .espacio {
 }
 
 .div6 {
-  grid-area: 6/3/10/5;
+  grid-area: 6 / 3 / 10 / 5;
   width: 100%;
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 30px;
   font-weight: 700;
   background-color: papayawhip;
@@ -196,8 +460,8 @@ header nav .espacio {
 
 .div7 {
   width: 100%;
-  grid-area: 1/1/6/3;
-  font-family: "Source Code Pro", monospace;
+  grid-area: 1 / 1 / 6 / 3;
+  font-family: 'Source Code Pro', monospace;
   font-size: 30px;
   font-weight: 700;
   background-color: beige;
@@ -205,12 +469,13 @@ header nav .espacio {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .div8 {
-  grid-area: 6/6/10/7;
+  grid-area: 6 / 6 / 10 / 7;
   width: 100%;
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   font-size: 30px;
   font-weight: 700;
   background-color: lavender;
@@ -219,6 +484,11 @@ header nav .espacio {
   justify-content: center;
   align-items: center;
 }
+
+/* Fin Regitro Grilla */
+
+
+/* Términos y condiciones */
 
 .tyc {
   background-color: gainsboro;
@@ -230,10 +500,14 @@ header nav .espacio {
 
 .form-style {
   background-color: gainsboro;
-  margin: auto;
+  text-align: center;
   width: 100%;
-  padding: 40px 20rem;
+  padding: 20px 20px;
+
 }
+
+
+/* Footer */
 
 footer nav .container-redes {
   background-color: #581845;
@@ -244,11 +518,176 @@ footer nav .container-redes {
 }
 
 footer nav div div {
-  font-family: "Source Code Pro", monospace;
+  font-family: 'Source Code Pro', monospace;
   color: white;
   font-size: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   padding: 0 10px 0 10px;
 }
 
-/*# sourceMappingURL=style.css.map */
+/* Fin Footer*/
+
+/* Media Query */
+
+@media only screen and (min-width:300px) and (max-width:960px) {
+
+  .container {
+      background-color: #581845;
+      padding: 10px 0 10px 0;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .container-fluid {
+      margin: 0;
+  }
+
+  .navbar-toggler-icon {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .navbar-collapse {
+      text-align: center;
+  }
+
+  .tyc {
+      background-color: gainsboro;
+      margin: auto;
+      padding: 30px;
+      text-align: center;
+      align-content: center;
+  }
+
+  .siguenos {
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+
+  }
+
+  footer nav div div {
+      font-family: 'Source Code Pro', monospace;
+      color: white;
+      font-size: 15px;
+      letter-spacing: 2px;
+      padding: 0 10px 0 10px;
+      display: contents;
+      align-self: center;
+  }
+
+  footer nav .container-redes {
+      background-color: #581845;
+      padding: 40px 10px 40px 10px;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+  }
+
+  .parent {
+      display: block;
+      grid-template-columns: repeat(6, 1fr);
+      grid-template-rows: repeat(9, 1fr);
+      grid-column-gap: 8px;
+      grid-row-gap: 8px;
+      padding: 20px;
+      width: 100%;
+      margin: auto;
+  }
+
+  .form-style {
+      background-color: gainsboro;
+      margin: auto;
+      width: 100%;
+      padding: 30px;
+      display: inline-grid;
+  }
+
+  .group1 {
+      text-align: justify;
+      padding: 8px 8px;
+      margin: 0 20px;
+      font-family: 'Source Code Pro', monospace;
+  }
+
+  .section {
+      width: 100%;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      align-content: center;
+      justify-content: center;
+  }
+
+  .section-container-menu {
+      color: #900C3F;
+      background-color: gainsboro;
+      display: flex;
+      justify-content: space-around;
+      padding: 80px 40px;
+  }
+
+  section div div p strong {
+      color: #581845;
+      font-weight: bold;
+      font-size: 30px;
+      font-style: oblique;
+  }
+
+  section div div p {
+      padding: 30px 30px 30px 30px;
+  }
+
+  .section-container-nosotros {
+      color: #900C3F;
+      background-color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 10px 40px;
+      width: 100%;
+
+  }
+
+  .section-container-especiales {
+      color: #900C3F;
+      background-color: white;
+      display: flex;
+      justify-content: space-around;
+      padding: 0 40px;
+
+  }
+
+  .container-usuarios {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      flex-direction: column;
+  }
+
+  .section-border-calidad {
+      height: 1100px;
+      margin: 20px;
+      text-align: center;
+      background-color: white;
+  }
+
+  img {
+      max-width: 100%;
+  }
+  .usuarios {
+      /* border-radius: 50%; */
+      /* width: 200px; */
+      /* margin: auto; */
+      padding: 30px 0;
+      /* transition: 1s; */
+      height: auto;
+  }
+
+ 
+  iframe {
+      border: 0;
+      max-width: 100%;
+  }
+}
